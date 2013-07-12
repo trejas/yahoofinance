@@ -207,6 +207,7 @@ module YahooFinance
       if block_given?
         yield qt
       end
+      qt.shift
       ret[qt.symbol] = qt
     end
     ret
