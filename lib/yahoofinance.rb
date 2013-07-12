@@ -207,7 +207,6 @@ module YahooFinance
       if block_given?
         yield qt
       end
-      qt.shift
       ret[qt.symbol] = qt
     end
     ret
@@ -584,7 +583,6 @@ if $0 == __FILE__
 
   if $options.quote_class
     YahooFinance::get_quotes( $options.quote_class, $options.symbol ) do |qt|
-      qt.shift
       puts "QUOTING: #{qt.symbol}"
       #puts "#{qt.get_info}"
       puts qt.to_s
