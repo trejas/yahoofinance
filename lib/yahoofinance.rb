@@ -583,6 +583,7 @@ if $0 == __FILE__
 
   if $options.quote_class
     YahooFinance::get_quotes( $options.quote_class, $options.symbol ) do |qt|
+      qt.shift
       puts "QUOTING: #{qt.symbol}"
       #puts "#{qt.get_info}"
       puts qt.to_s
