@@ -139,7 +139,7 @@ module YahooFinance
     "s" => [ "symbol", "val" ],
     "n" => [ "name" , "val" ],
     # "b2" => [ "ask", "val.to_f" ],
-    "b3" => [ "bid", "val.to_f" ],
+    "b3" => [ "lastTrade", "val.to_f" ],
     "d" => [ "dividendPerShare", "convert(val)" ],
     "y" => [ "dividendYield", "convert(val)" ],
     # "k2" => [ "change", "val" ],
