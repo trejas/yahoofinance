@@ -63,7 +63,7 @@ module YahooFinance
     "d" => [ "dividendPerShare", "convert(val)" ],
     "y" => [ "dividendYield", "convert(val)" ],
 #    "c" => [ "change", "val" ],
-    "c1" => [ "changePoints", "val.to_f" ],
+#    "c1" => [ "changePoints", "val.to_f" ],
 #    "p2" => [ "changePercent", "val.to_f" ],
 #    "p" => [ "previousClose", "val.to_f" ],
 #    "o" => [ "open", "val.to_f" ],
@@ -144,7 +144,7 @@ module YahooFinance
     "y" => [ "dividendYield", "convert(val)" ],
     # "k2" => [ "change", "val" ],
     # "k1" => [ "lastTradeWithTime", "val" ],
-    "c6" => [ "changePoints", "val.to_f" ]
+    # "c6" => [ "changePoints", "val.to_f" ],
     # "m2" => [ "dayRange", "val" ],
     # "j3" => [ "marketCap", "convert(val)" ],
 #     "v7" => [ "holdingsValue", "val" ],
