@@ -57,7 +57,7 @@ module YahooFinance
   STDHASH = {
     "s" => [ "symbol", "val" ],
     "n" => [ "name", "val" ],
-    "l1" => [ "lastTrade", "val.to_f" ],
+    "l1" => [ "lastTradeDelayed", "val.to_f" ],
     "d1" => [ "date", "val" ],
     "t1" => [ "time", "val" ],
     "d" => [ "dividendPerShare", "convert(val)" ],
@@ -140,6 +140,7 @@ module YahooFinance
     "n" => [ "name" , "val" ],
     # "b2" => [ "ask", "val.to_f" ],
     "b3" => [ "lastTrade", "val.to_f" ],
+    "l1" => [ "lastTradeDelayed", "val.to_f" ],
     "d" => [ "dividendPerShare", "convert(val)" ],
     "y" => [ "dividendYield", "convert(val)" ],
     # "k2" => [ "change", "val" ],
